@@ -90,3 +90,12 @@ article.btn-container {
     max-width: 500px;
     height: auto;
 }
+
+.about-address {
+    line-height: 1.2;
+    padding: 4px;
+}
+
+.sofiatraffic li {
+    padding-bottom: 4px;
+}

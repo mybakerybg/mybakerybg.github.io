@@ -1,10 +1,16 @@
+#home-page a:hover,
+#home-page a:active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
 .btn-container {
   margin-bottom: 25px;
 }
 
-#contacts {
+/* #contacts {
   margin-top: 40px;
-}
+} */
 
 #footer-index {
   margin-top: 35px;
