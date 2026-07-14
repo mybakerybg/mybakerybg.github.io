@@ -1,0 +1,131 @@
+body {
+    display: none;
+}
+
+.page-main {
+    padding-bottom: 0;
+    padding: 10px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+a {
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+label {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+}
+
+input {
+    margin: 15px auto;
+    padding: 5px;
+}
+
+button {
+    margin: 15px auto;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div.edit {
+    margin-bottom: 40px;
+}
+
+/* #enter-btn {
+    border: 2px solid green;
+    color: green;
+} */
+
+button.edit {
+    border: 2px solid green;
+    color: green;
+}
+
+button:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+a.edit:link,
+a.edit:visited {
+    font-size: 90%;
+    font-weight: bold;
+    border: 2px solid green;
+    color: green;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+a.edit:hover,
+a.edit:active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#youtube-sync-btn {
+    border: 2px solid blue;
+    color: blue;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+article.last-youtube-update {
+    margin-top: 10px;
+}
+
+div.last-youtube-update {
+    color: rgb(218, 67, 67);
+    font-style: italic;
+}
+
+div.logout {
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 40px 0;
+}
+
+#logout-btn {
+    border: 2px solid red;
+    color: red;
+}
+
+footer {
+    background-color: rgb(245, 245, 245);
+    border-top: 1px solid black;
+    margin-top: 50px;
+    padding: 10px 25px;
+    text-align: center;
+    position: sticky;
+    top: 100vh;
+}
+
+.youtube-link {
+    /* font-size: 90%; */
+    font-weight: bold;
+}
+
+article.sample-text {
+    margin-top: 50px;
+}
+
+section.youtube {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    width: fit-content;
+}
