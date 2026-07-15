@@ -25,20 +25,24 @@
 <body>
     <script>0</script>
 
-    <header class="page-header">
-        <h2 class="sec-head-title"></h2>
-        <h1 class="main-head-title">Фурна ХЛЕБ</h1>
-        <h2 class="sec-head-title">гр.&nbsp;София, кв.&nbsp;Княжево</h2>
-    </header>
-
     <!-- class="active" -->
     <nav class="page-nav">
         <a id="home-link" class="nav-link active" href="/">Начало</a>
         <a id="home-link" class="nav-link" href="/schedule">Хляб през седмицата</a>
         <a id="notifications-link" class="nav-link" href="/notifications">Известия</a>
         <a id="video-link" class="nav-link" href="/partners">Партньори</a>
-        <a id="about-link" class="nav-link" href="#contacts">Контакти</a>
+        <!-- <a id="about-link" class="nav-link" href="#contacts">Контакти</a> -->
     </nav>
+
+    <header class="page-header">
+        <img id="img-page-header" src="/GLOBAL/assets/files-static/images/Hleb-logo_homepage.jpg"
+            alt="Фурна ХЛЕБ - лого">
+    </header>
+
+    <!-- <header class="page-header">
+        <h1 class="main-head-title">Фурна ХЛЕБ</h1>
+        <h2 class="sec-head-title">кв.&nbsp;Княжево</h2>
+    </header> -->
 
     <main class="page-main">
 
@@ -64,44 +68,47 @@
                 <a href="/notifications" id="notifications-btn" class="link-btn">Известия</a>
             </article>
 
-            <article id="home-img-article">
+            <!-- <article id="home-img-article">
                 <img id="img-home" src="/GLOBAL/assets/files-static/images/Hleb-logo_homepage.jpg"
                     alt="Фурна ХЛЕБ - лого">
-            </article>
+            </article> -->
 
             <hr>
 
             <article id="contacts">
 
-                <p>
-                <h3>Контакти</h3>
-                <address>
-                    <p class="about-address">
-                        Адрес: София&nbsp;1619, кв.&nbsp;Княжево, ул.&nbsp;Бойница № 1А<br>(* до чешмата с минерална
-                        вода „Св. Георги“)
-                    </p>
-                    <p class="about-address">Работно време: 10:00 - 19:00 ч., от четвъртък до неделя (включително)</p>
-                    <p class="about-address">Телефон: 0877&nbsp;410&nbsp;711</p>
-                    <p class="about-address">E-mail: hleb.bg@gmail.com</p>
-                    <p class="about-address"><a href="https://www.facebook.com/profile.php?id=61553565820675"
-                            target="_blank">Facebook</a></p>
+                <section class="contacts">
+                    <h3>Контакти</h3>
+                    <address>
+                        <p class="about-address">
+                            Адрес: гр.&nbsp;София&nbsp;1619, кв.&nbsp;Княжево, ул.&nbsp;Бойница № 1А<br>(* до чешмата с
+                            минерална
+                            вода „Св. Георги“)
+                        </p>
+                        <p class="about-address">Работно време: 10:00 - 19:00 ч., от четвъртък до неделя (включително)
+                        </p>
+                        <p class="about-address">Телефон: 0877&nbsp;410&nbsp;711</p>
+                        <p class="about-address">E-mail: hleb.bg@gmail.com</p>
+                        <p class="about-address"><a href="https://www.facebook.com/profile.php?id=61553565820675"
+                                target="_blank">Facebook</a></p>
 
-                </address>
-                </p>
+                    </address>
+                </section>
 
-                <p>
-                <h4>Градски транспорт</h4>
-                <ul class="sofiatraffic">
-                    <li>- трамваи №5, №11 (спирка&nbsp;0851 – „Кв. Княжево“)</li>
-                    <li>- автобуси №59 (спирки 0853, 6035 – „Автоцтанция Княжево“)</li>
-                    <li>- автобуси №804 (спирка&nbsp;2622 – „Автоцтанция Княжево“)</li>
-                    <li>
-                        <span><a href="https://maps.app.goo.gl/6meQZuPJ9nqoctvL9" target="_blank">Google Maps</a></span>
-                        <span>|</span>
-                        <span><a href="https://www.sofiatraffic.bg/bg/" target="_blank">sofiatraffic.bg</a></span>
-                    </li>
-                </ul>
-                </p>
+                <section class="sofia-traffic">
+                    <h4>Градски транспорт</h4>
+                    <ul class="sofiatraffic">
+                        <li>- трамваи №5, №11 (спирка&nbsp;0851 – „Кв. Княжево“)</li>
+                        <li>- автобуси №59 (спирки 0853, 6035 – „Автоцтанция Княжево“)</li>
+                        <li>- автобуси №804 (спирка&nbsp;2622 – „Автоцтанция Княжево“)</li>
+                        <li>
+                            <span><a href="https://maps.app.goo.gl/6meQZuPJ9nqoctvL9" target="_blank">Google
+                                    Maps</a></span>
+                            <span>|</span>
+                            <span><a href="https://www.sofiatraffic.bg/bg/" target="_blank">sofiatraffic.bg</a></span>
+                        </li>
+                    </ul>
+                </section>
 
             </article>
 
@@ -109,10 +116,15 @@
 
     </main>
 
-    <footer class="page-footer" id="footer-index">
+    <!-- <footer class="page-footer" id="footer-index">
         <a href="/">Фурна ХЛЕБ</a>
-    </footer>
+    </footer> -->
 
+    <footer class="page-footer" id="footer-index">
+        <a href="/">
+            <img src="/GLOBAL/assets/files-static/images/Hleb-logo_neg-bg.jpg" alt="Фурна ХЛЕБ - лого" srcset="">
+        </a>
+    </footer>
 </body>
 
 </html>

@@ -10,10 +10,6 @@ hr {
     margin: 20px auto;
 }
 
-#home-img-article {
-    margin-bottom: 50px;
-}
-
 #bank-article {
     margin-bottom: 40px;
 }
@@ -78,17 +74,6 @@ article.btn-container {
     border-radius: 5px;
     color: white;
     padding: 10px;
-}
-
-#img-home {
-    /* border-radius: 5px;
-    width: 500px;
-    height: 300px; */
-
-    border-radius: 5px;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
 }
 
 .about-address {

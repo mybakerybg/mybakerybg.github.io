@@ -1,3 +1,15 @@
+.page-nav {
+  margin-bottom: 15px;
+}
+
+.page-header {
+  background-color: initial;
+}
+
+#greeting h2 {
+  margin-top: 10px;
+}
+
 #home-page a:hover,
 #home-page a:active {
   text-decoration: underline;
@@ -5,12 +17,16 @@
 }
 
 .btn-container {
-  margin-bottom: 25px;
+  margin-bottom: 0;
 }
 
-/* #contacts {
-  margin-top: 40px;
-} */
+#contacts {
+  padding-top: 10px;
+}
+
+section.sofia-traffic {
+  margin-top: 25px;
+}
 
 #footer-index {
   margin-top: 35px;

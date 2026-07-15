@@ -13,7 +13,13 @@ const videosData = [
   {
     title: 'Go Guide',
     date: '',
-    url: 'https://goguide.bg/53212-city-guide-dve-lokatsii-izvun-tsentara-zaradi-koito-si-struva-da-hvanesh-tramvaya/'
+    url: 'https://goguide.bg/'
+  },
+  {
+    title: 'City Guide: Две локации извън центъра, заради които си струва да хванеш трамвая',
+    date: '',
+    url: 'https://goguide.bg/53212-city-guide-dve-lokatsii-izvun-tsentara-zaradi-koito-si-struva-da-hvanesh-tramvaya/',
+    emoji: '🔗'
   },
 ];
 
@@ -28,7 +34,7 @@ const videoTemplate = (data) => html`
 
 const cardTemplate = (data) => html`
     <article>
-        <h4><a href="${data.url}" target="_blank">${data.title}</a></h4>
+        <h4>${data.emoji || ''} <a href="${data.url}" target="_blank">${data.title}</a></h4>
     </article>
 `;
 

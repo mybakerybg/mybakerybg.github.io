@@ -1,11 +1,16 @@
-@font-face {
+/* @font-face {
     font-family: 'BukyVedeRegular';
     src: url(../assets/files-static/fonts/BukyVede-Regular.ttf);
+} */
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url(../assets/files-static/fonts/HelveticaNeueMedium.otf);
 }
 
 /* @font-face {
-    font-family: 'HelveticaNeue';
-    src: url(../../static/files-static/fonts/HelveticaNeue.ttf);
+    font-family: 'Montserrat-Regular';
+    src: url(../../static/files-static/fonts/Montserrat-Regular.ttf);
 } */
 
 * {
@@ -77,6 +82,12 @@ table {
     text-align: center;
 }
 
+#img-page-header {
+    border-radius: 5px;
+    width: 15%;
+    height: auto;
+}
+
 .page-header h1,
 .page-header h2 {
     margin: 0;
@@ -84,11 +95,18 @@ table {
 }
 
 .main-head-title {
-    font-family: 'BukyVedeRegular', Arial, Helvetica, sans-serif;
+    /* font-family: 'BukyVedeRegular', Arial, Helvetica, sans-serif; */
+    font-family: 'HelveticaNeue', Arial, Helvetica, sans-serif;
+    /* font-family: 'Montserrat-Regular', Arial, Helvetica, sans-serif; */
+    font-weight: 400;
 }
 
 .sec-head-title {
     font-size: 20px;
+}
+
+h2.sec-head-title {
+    padding-top: 0;
 }
 
 .page-nav {
@@ -128,8 +146,10 @@ table {
     position: sticky;
     top: 100vh;
     overflow: hidden;
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: rgb(16, 12, 0);
     margin-top: 20px;
+    font-family: 'HelveticaNeue', Arial, Helvetica, sans-serif;
 }
 
 .page-footer a {
@@ -137,7 +157,11 @@ table {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 18px 16px;
+    padding: 4px 0 0 0;
     text-decoration: none;
     font-size: 17px;
+}
+
+footer img {
+    width: 10%
 }
