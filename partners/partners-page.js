@@ -16,10 +16,10 @@ const videosData = [
     url: 'https://goguide.bg/'
   },
   {
-    title: 'City Guide: Две локации извън центъра, заради които си струва да хванеш трамвая',
+    title: `City Guide:\nДве локации извън центъра, заради които си струва да хванеш трамвая`,
     date: '',
     url: 'https://goguide.bg/53212-city-guide-dve-lokatsii-izvun-tsentara-zaradi-koito-si-struva-da-hvanesh-tramvaya/',
-    emoji: '🔗'
+    emoji: ''
   },
 ];
 
@@ -34,7 +34,7 @@ const videoTemplate = (data) => html`
 
 const cardTemplate = (data) => html`
     <article>
-        <h4>${data.emoji || ''} <a href="${data.url}" target="_blank">${data.title}</a></h4>
+        <h4>${data.emoji || ''} <a href="${data.url}" target="_blank">${(data.title.split('\n').length === 1) ? (data.title) : (data.title.split('\n').map((line) => html`${line}<br>`))}</a></h4>
     </article>
 `;
 

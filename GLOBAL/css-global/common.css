@@ -84,7 +84,7 @@ table {
 
 #img-page-header {
     border-radius: 5px;
-    width: 15%;
+    width: 140px;
     height: auto;
 }
 
@@ -163,5 +163,7 @@ h2.sec-head-title {
 }
 
 footer img {
-    width: 10%
+    max-width: 120px;
+    /* 669px x 10% =  */
+    height: auto;
 }

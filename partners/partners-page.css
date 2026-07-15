@@ -1,3 +1,11 @@
+h2 {
+  font-size: 18px;
+}
+
+section.card {
+  margin: 10px 0;
+}
+
 nav.page-nav {
   margin-bottom: 10px;
 }
