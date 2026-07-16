@@ -7,7 +7,7 @@ section.card {
 }
 
 nav.page-nav {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .loader {
@@ -19,4 +19,8 @@ nav.page-nav {
 
 footer.page-footer {
   margin-top: 20px;
+}
+
+.card.press {
+  margin-top: 22px;
 }

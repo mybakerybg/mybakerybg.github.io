@@ -1,5 +1,5 @@
 .page-nav {
-  margin-bottom: 15px;
+  margin-bottom: 32px;
 }
 
 .page-header {
@@ -8,6 +8,7 @@
 
 #greeting h2 {
   margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 #home-page a:hover,
@@ -29,7 +30,7 @@ section.sofia-traffic {
 }
 
 #footer-index {
-  margin-top: 35px;
+  margin-top: 50px;
 }
 
 @media (max-width: 600px) {
@@ -47,4 +48,18 @@ section.sofia-traffic {
 .loader {
   color: rgb(204, 64, 64);
   font-style: italic;
+}
+
+.google-maps {
+  /* display: inline-block; */
+  margin-top: 34px;
+  padding: 0 2px 2px;
+}
+
+iframe {
+  /* display: inline-block;
+  margin-top: 25px; */
+  /* outline: 2px solid rgb(204, 64, 64); */
+  border-radius: 4px;
+  max-width: 100%;
 }
