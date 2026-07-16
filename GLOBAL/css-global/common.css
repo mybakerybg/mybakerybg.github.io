@@ -167,5 +167,5 @@ footer img {
     max-width: 120px;
     /* 669px x 10% =  */
     height: auto;
-    border-radius: 5px;
+    border-radius: 50%;
 }
