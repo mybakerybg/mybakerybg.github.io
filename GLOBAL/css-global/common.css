@@ -82,11 +82,11 @@ table {
     text-align: center;
 }
 
-#img-page-header {
+/* #img-page-header {
     border-radius: 5px;
     width: 140px;
     height: auto;
-}
+} */
 
 .page-header h1,
 .page-header h2 {
@@ -143,6 +143,14 @@ h2.sec-head-title {
     padding-bottom: 20px;
 }
 
+#img-page-header {
+    /* 391 x 289 */
+    border-radius: 5px;
+    width: 140px;
+    height: auto;
+}
+
+
 .page-footer {
     position: sticky;
     top: 100vh;
@@ -164,8 +172,8 @@ h2.sec-head-title {
 }
 
 footer img {
+    /* 391 x 289 */
     max-width: 120px;
-    /* 669px x 10% =  */
     height: auto;
     border-radius: 50%;
 }
