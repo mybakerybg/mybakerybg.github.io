@@ -177,3 +177,13 @@ footer img {
     height: auto;
     border-radius: 50%;
 }
+
+.page-footer-link.favicon-link {
+    display: block;
+    /* margin: 0 auto; */
+    margin-top: 5px;
+    padding-top: 0;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 300;
+}
