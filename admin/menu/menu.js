@@ -7,18 +7,17 @@ const noticesHomeEditBtn = document.querySelector('#noticesHome-edit-btn');
 const noticesSectionEditBtn = document.querySelector('#noticesSection-edit-btn');
 
 const scheduleEditBtn = document.querySelector('#schedule-edit-btn');
-const youtubeSyncBtn = document.querySelector('#youtube-sync-btn');
+
+// const youtubeSyncBtn = document.querySelector('#youtube-sync-btn');
 const lastYoutubeUpdateDiv = document.querySelector('#last-youtube-update');
 const logoutBtn = document.querySelector('#logout-btn');
 
 // Event-listeners
 noticesHomeEditBtn.addEventListener('click', onNoticesHomeEditClick);
-
 noticesSectionEditBtn.addEventListener('click', onNoticesSectionEditClick);
-
 scheduleEditBtn.addEventListener('click', onScheduleEditClick);
-youtubeSyncBtn.addEventListener('click', onYoutubeSyncClick);
 logoutBtn.addEventListener('click', () => logoutAllUserSessions());
+// youtubeSyncBtn.addEventListener('click', onYoutubeSyncClick);
 
 window.onload = onPageLoad;
 
@@ -26,7 +25,7 @@ window.onload = onPageLoad;
 // Event-Handlers
 async function onPageLoad() {
   browserStorageValidation(back4appBrowserStorageItemName, redirectPathOnError, 'user');
-  await getLastYoutubeUpdate();
+  // await getLastYoutubeUpdate();
 }
 
 function onNoticesHomeEditClick() {

@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -23,7 +23,7 @@ a:active {
 
 label {
     display: block;
-    margin: 15px auto;
+    margin: 15px auto 0;
     text-align: center;
 }
 
@@ -48,6 +48,10 @@ button:hover {
 
 div.edit {
     margin-bottom: 40px;
+}
+
+#login-form {
+    margin-top: 35px;
 }
 
 #login-btn {

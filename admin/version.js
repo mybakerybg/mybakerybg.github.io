@@ -1,2 +1,2 @@
-export const version = 'Ver.3.4.4';
+export const version = 'Ver.1.3.2';
 console.log(version);

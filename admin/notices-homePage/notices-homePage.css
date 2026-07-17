@@ -23,7 +23,7 @@ a:active {
 
 h1 {
     font-size: 23px;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 0;
     text-align: center;
 }
@@ -44,9 +44,23 @@ section {
 }
 
 footer {
-    border-top: 2px solid green;
-    margin-top: 50px;
     text-align: center;
+}
+
+footer.footer-editform,
+footer.footer-preview {
+    border-top: 2px solid green;
+}
+
+footer.page-footer {
+    border: none;
+    margin-top: 20px;
+    padding: 4px 25px 0 25px;
+}
+
+footer.page-footer > a {
+    padding: 0;
+    margin: 0;
 }
 
 button {
