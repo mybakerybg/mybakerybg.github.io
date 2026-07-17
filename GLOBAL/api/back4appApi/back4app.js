@@ -1,12 +1,12 @@
 // Server - https://www.back4app.com/
-// App - HramUspenieMultipage
+// App - Hleb Knyajevo
 export const back4appBrowserStorageItemName = 'sessionBack4app';
 
 export const info = {
     host: 'https://parseapi.back4app.com',
     headers: {
-        'X-Parse-Application-Id': 'qfnjFeXrdVN5ZBKiCTorInh3D4YQki5zxqZWCCsd',
-        'X-Parse-REST-API-Key': 'vgkdkHkymgE5vM8otldRwBtPkxPkE1WWVRbNykxK',
+        'X-Parse-Application-Id': 'YjO6dtHrip5mQipUGskoXrH0U4zsnnnWu97d185Z',
+        'X-Parse-REST-API-Key': '9aPgbHn4LL4evvuYCnMBHQvSNsy5RCJSwy0FSnDc',
         'Content-Type': 'application/json'
     },
     className: 'PublicDataClass',
