@@ -40,17 +40,13 @@ button,
   border: 2px solid black;
 }
 
-.btns-group {
-  padding-bottom: 15px;
-}
-
-.btns-group.-top {
-  margin-top: 0;
-  padding-top: 15px;
-}
-
+.btns-group.-top,
 .btns-group.-bottom {
-  margin-top: 50px;
+  /* border: 2px solid rgb(74, 105, 204); */
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 15px;
 }
 
 header.top-btns-group {
@@ -69,15 +65,6 @@ hr.schedule {
   color: white;
 }
 
-.template-section {
-  margin-top: 32px;
-  padding-top: 40px;
-}
-
-.template-section div {
-  margin-top: 40px;
-}
-
 .loader {
   color: rgb(204, 64, 64);
   margin-top: 10px;
@@ -91,6 +78,15 @@ h2.admin {
 
 button.edit {
   font-weight: bold !important;
+}
+
+footer.footer-editform,
+footer.footer-preview {
+  border-top: 2px solid green;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
 }
 
 footer.page-footer {

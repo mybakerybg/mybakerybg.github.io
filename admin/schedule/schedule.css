@@ -7,7 +7,7 @@ a {
     text-decoration: none;
     color: rgb(74, 105, 204);
     display: inline-block;
-    margin: 5px;
+    /* margin: 5px; */
 }
 
 a:hover,
@@ -16,8 +16,8 @@ a:active {
     text-decoration-thickness: 2px;
 }
 
-header {
-    border-bottom: 2px solid green;
+footer.footer-editform {
+    border-top: none;
 }
 
 section {
@@ -30,7 +30,6 @@ section {
 }
 
 #first-weekday-div {
-    /* border: 2px dashed rgb(74, 105, 204); */
     border: none;
     padding-bottom: 15px;
     margin-bottom: 20px;
@@ -51,7 +50,6 @@ textarea {
 }
 
 button {
-    margin: 15px auto;
     border-radius: 8px;
     padding: 5px;
     background-color: white;
@@ -61,6 +59,7 @@ button {
 
 #clear-all-btn,
 .clear-currday-textarea {
+    margin: 15px auto;
     display: block;
     border: 2px solid black;
 }
@@ -134,9 +133,10 @@ button {
 }
 
 .template-section {
-    border-top: 2px solid green;
+    border-top: 2px solid black;
     padding: 20px;
-    margin-bottom: 40px;
+    margin-top: 32px;
+    margin-bottom: 50px;
 }
 
 #template-text {
