@@ -8,8 +8,6 @@ const noticesSectionEditBtn = document.querySelector('#noticesSection-edit-btn')
 
 const scheduleEditBtn = document.querySelector('#schedule-edit-btn');
 
-// const youtubeSyncBtn = document.querySelector('#youtube-sync-btn');
-const lastYoutubeUpdateDiv = document.querySelector('#last-youtube-update');
 const logoutBtn = document.querySelector('#logout-btn');
 
 // Event-listeners
@@ -17,7 +15,6 @@ noticesHomeEditBtn.addEventListener('click', onNoticesHomeEditClick);
 noticesSectionEditBtn.addEventListener('click', onNoticesSectionEditClick);
 scheduleEditBtn.addEventListener('click', onScheduleEditClick);
 logoutBtn.addEventListener('click', () => logoutAllUserSessions());
-// youtubeSyncBtn.addEventListener('click', onYoutubeSyncClick);
 
 window.onload = onPageLoad;
 
@@ -25,7 +22,6 @@ window.onload = onPageLoad;
 // Event-Handlers
 async function onPageLoad() {
   browserStorageValidation(back4appBrowserStorageItemName, redirectPathOnError, 'user');
-  // await getLastYoutubeUpdate();
 }
 
 function onNoticesHomeEditClick() {
@@ -40,28 +36,10 @@ function onScheduleEditClick() {
   window.location.href = '../schedule';
 }
 
-async function getLastYoutubeUpdate() {
-  const data = await getRequest();
-
-  lastYoutubeUpdateDiv.style.color = 'initial';
-  lastYoutubeUpdateDiv.textContent = `${data.YouTubeLastUpdate}`;
-}
-
-async function onYoutubeSyncClick() {
-  // console.log('... Youtube sync ...');
-  try {
-    await updateYoutubeData();
-
-  } catch (error) {
-    throw error;
-  }
-}
-
 
 // IMPORTS
 import * as back4app from "../../GLOBAL/api/back4appApi/back4app.js";
 import { browserStorageValidation } from "../../GLOBAL/js-global/browser-storage.js";
 import { getRequest } from '../../GLOBAL/js-global/requests.js';
 import { logoutAllUserSessions } from '../../GLOBAL/js-global/requests-users.js';
-import { updateYoutubeData } from '../../GLOBAL/api/youtubeApi/youtube.js';
 import { version } from '../version.js';

@@ -1,15 +1,9 @@
-/* .page-header {
-    border-bottom: 1px solid black;
-} */
-
 h1 {
-    /* border: 2px solid red; */
     margin: 0;
     padding: 0;
 }
 
 h3 {
-    /* border: 2px solid green; */
     margin: 10px 10px 15px 10px;
     padding: 2px;
 }
@@ -17,12 +11,6 @@ h3 {
 a {
     display: inline-block;
 }
-
-/* a:hover,
-a:active {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-} */
 
 button {
     margin: 15px auto;
@@ -32,14 +20,10 @@ details.info-msg {
     color: green;
     font-weight: bold;
     margin: 0 20px 0;
-
-    /* padding: 0 20px 0; */
 }
 
 summary.info-msg {
-    /* margin-left: 20px; */
     cursor: pointer;
-    /* border: 2px solid green; */
     border-radius: 8px;
     padding: 4px;
     max-width: fit-content;
@@ -50,35 +34,12 @@ section.info-msg {
     margin: 0 5px 0;
 }
 
-
-/* .schedule-msg {
-    color: green;
-} */
-
 #info-msg {
     text-align: center;
     color: rgb(204, 64, 64);
-    /* margin-top: 10px; */
     margin-top: 0;
     margin-bottom: 20px;
 }
-
-/* #dialog {
-    border: 2px dashed red;
-    color: red;
-    font-weight: bold;
-    font-size: 21px;
-    padding: 5px;
-    margin: 20px;
-} */
-
-/* #dialog span {
-    padding: 8px;
-} */
-
-/* #schedule-heading {
-    margin-top: 10px;
-} */
 
 #week-range {
     margin-top: 0;
@@ -117,22 +78,6 @@ section.info-msg {
     margin-bottom: 20px;
 }
 
-#footer-index {
-    margin-top: 40px;
+#schedule-wrapper {
+    margin-bottom: 25px;
 }
-
-/* #page-footer {
-    padding: 10px 16px;
-    border-top: 1px solid black;
-    text-align: center;
-} */
-
-/* #logout-btn {
-    border: 2px solid red;
-    border-radius: 8px;
-    padding: 8px;
-    background-color: white;
-    color: red;
-    font-weight: bold;
-    cursor: pointer;
-} */

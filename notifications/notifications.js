@@ -14,7 +14,7 @@ async function renderNotices() {
     const data = serverData.NoticesSection[0].content;
 
     if (data === '') {
-        loaderDiv.textContent = '... Към момента няма нови известия ...'
+        loaderDiv.textContent = '... Към момента няма известия ...'
         noticesSection.style.display = 'none';
         return;
     }

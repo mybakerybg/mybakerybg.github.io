@@ -1,3 +1,16 @@
+h1.admin-heading {
+  font-size: 23px;
+  padding-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .link-btn:link,
 .link-btn:visited {
   padding: 4px;
@@ -10,12 +23,6 @@
   background-color: blue;
   color: white;
 }
-
-/* .clear-textarea:hover,
-.clear-currday-textarea:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-} */
 
 button:hover {
   text-decoration: underline;
@@ -34,7 +41,6 @@ button,
 }
 
 .btns-group {
-  /* border: 2px solid purple; */
   padding-bottom: 15px;
 }
 
@@ -85,4 +91,15 @@ h2.admin {
 
 button.edit {
   font-weight: bold !important;
+}
+
+footer.page-footer {
+  border: none;
+  /* margin-top: 20px; */
+  padding: 4px 25px 0 25px;
+}
+
+footer.page-footer > a {
+  padding: 0;
+  margin: 0;
 }
