@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 h1.admin-heading {
   font-size: 23px;
   padding-top: 20px;
@@ -13,7 +19,7 @@ h3 {
 
 .link-btn:link,
 .link-btn:visited {
-  padding: 4px;
+  padding: 8px;
   border-color: blue;
   color: blue;
 }
@@ -24,10 +30,27 @@ h3 {
   color: white;
 }
 
+a.link-btn:link,
+a.link-btn:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  /* margin: 15px auto; */
+  border-radius: 8px;
+  padding: 8px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 button:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
+
 
 button,
 .link-btn:link:link {
@@ -38,7 +61,13 @@ button,
 
 .btn-template {
   border: 2px solid black;
+  margin: 0;
 }
+
+.btns-group.-top {
+  margin-top: 20px;
+}
+
 
 .btns-group.-top,
 .btns-group.-bottom {
@@ -80,22 +109,62 @@ button.edit {
   font-weight: bold !important;
 }
 
+#logout-top-btn,
+#logout-bottom-btn {
+  border: 2px solid red;
+  color: red;
+  margin: 0;
+}
+
+#preview-btn {
+  border: 2px solid green;
+  background-color: green;
+  color: white;
+  margin: 0;
+}
+
+#back-to-form-btn {
+  border: 2px solid rgb(74, 105, 204);
+  background-color: rgb(74, 105, 204);
+  color: white;
+}
+
+#preview-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
 footer.footer-editform,
 footer.footer-preview {
   border-top: 2px solid green;
-  padding: 15px;
+  padding: 16px;
   display: flex;
   justify-content: center;
   gap: 32px;
+  margin-top: 32px !important;
+  margin-bottom: 50px;
 }
 
 footer.page-footer {
   border: none;
   /* margin-top: 20px; */
-  padding: 4px 25px 0 25px;
+  padding: 4px 25px 2px 25px;
 }
 
 footer.page-footer > a {
   padding: 0;
   margin: 0;
+}
+
+@media (max-width: 700px) {
+
+  div.btns-group.-top,
+  div.btns-group.-bottom,
+  .footer-editform,
+  .footer-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px !important;
+  }
 }

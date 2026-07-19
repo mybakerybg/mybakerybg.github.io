@@ -49,13 +49,13 @@ textarea {
     font-size: 15px;
 }
 
-button {
+/* button {
     border-radius: 8px;
     padding: 5px;
     background-color: white;
     font-weight: bold;
     cursor: pointer;
-}
+} */
 
 #clear-all-btn,
 .clear-currday-textarea {
@@ -75,22 +75,28 @@ button {
     margin: 0;
 }
 
-#logout-top-btn,
+footer.footer-editform,
+footer.footer-preview {
+    margin-top: 20px !important;
+    margin-bottom: 0;
+}
+
+/* #logout-top-btn,
 #logout-bottom-btn {
     border: 2px solid red;
     color: red;
-}
+} */
 
-#preview-btn {
+/* #preview-btn {
     border: 2px solid green;
     background-color: green;
     color: white;
-}
+} */
 
 /* ################################################ */
-#preview-section {
+/* #preview-section {
     text-align: center;
-}
+} */
 
 .preview-card {
     margin-bottom: 10px;
@@ -120,11 +126,11 @@ button {
     margin-bottom: 20px;
 }
 
-#back-to-form-btn {
+/* #back-to-form-btn {
     border: 2px solid rgb(74, 105, 204);
     background-color: rgb(74, 105, 204);
     color: white;
-}
+} */
 
 #confirm-send-btn {
     border: 2px solid green;
@@ -134,7 +140,7 @@ button {
 
 .template-section {
     border-top: 2px solid black;
-    padding: 20px;
+    padding: 50px 20px 20px;
     margin-top: 32px;
     margin-bottom: 50px;
 }

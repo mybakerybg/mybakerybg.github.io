@@ -12,9 +12,9 @@ a {
     display: inline-block;
 }
 
-button {
+/* button {
     margin: 15px auto;
-}
+} */
 
 details.info-msg {
     color: green;

@@ -32,14 +32,14 @@ input {
     padding: 5px;
 }
 
-button {
+/* button {
     margin: 15px auto;
     border-radius: 8px;
     padding: 8px;
     background-color: white;
     font-weight: bold;
     cursor: pointer;
-}
+} */
 
 div.edit {
     margin-bottom: 0;
