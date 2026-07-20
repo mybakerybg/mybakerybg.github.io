@@ -3,18 +3,6 @@ body {
     font-family: Helvetica, Arial, Verdana, sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(74, 105, 204);
-    display: inline-block;
-}
-
-a:hover,
-a:active {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-}
-
 header {
     border-bottom: 2px solid green;
     text-align: center;
@@ -37,37 +25,13 @@ textarea {
     text-align: center;
 }
 
-/* button {
-    border-radius: 8px;
-    padding: 5px;
-    background-color: white;
-    font-weight: bold;
-    cursor: pointer;
-} */
-
 .clear-textarea {
     display: block;
     border: 2px solid black;
     margin: 0 auto 20px;
 }
 
-/* #logout-top-btn,
-#logout-bottom-btn {
-    border: 2px solid red;
-    color: red;
-} */
-
-/* #preview-btn {
-    border: 2px solid green;
-    background-color: green;
-    color: white;
-} */
-
 /* ################################################ */
-/* #preview-section {
-    text-align: center;
-} */
-
 #notices-preview-section {
     margin: 0 auto 10px;
     width: 80%;
@@ -90,23 +54,8 @@ textarea {
     padding: 5px;
 }
 
-/* #back-to-form-btn {
-    border: 2px solid rgb(74, 105, 204);
-    background-color: rgb(74, 105, 204);
-    color: white;
-} */
-
 #confirm-send-btn {
     border: 2px solid green;
     background-color: green;
     color: white;
 }
-
-/* @media (max-width: 600px) {
-    .footer-editform {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 16px !important;
-    }
-} */

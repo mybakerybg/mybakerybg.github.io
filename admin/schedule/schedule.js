@@ -119,6 +119,8 @@ function showPreviewSection() {
     templateSection.style.display = 'none';
 
     previewSection.style.display = 'block';
+    // window.location.href = '#preview-section';
+    window.location.href = '#page-start';
 }
 
 function hidePreviewSection() {
@@ -127,6 +129,7 @@ function hidePreviewSection() {
     topBtnsGroup.style.display = 'block';
     articlesSection.style.display = 'block';
     templateSection.style.display = 'block';
+    window.location.href = '#page-start';
 }
 
 function refreshAllDates(ev) {

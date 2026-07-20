@@ -3,19 +3,6 @@ body {
     font-family: Helvetica, Arial, Verdana, sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(74, 105, 204);
-    display: inline-block;
-    /* margin: 5px; */
-}
-
-a:hover,
-a:active {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-}
-
 footer.footer-editform {
     border-top: none;
 }
@@ -49,14 +36,6 @@ textarea {
     font-size: 15px;
 }
 
-/* button {
-    border-radius: 8px;
-    padding: 5px;
-    background-color: white;
-    font-weight: bold;
-    cursor: pointer;
-} */
-
 #clear-all-btn,
 .clear-currday-textarea {
     margin: 15px auto;
@@ -81,23 +60,7 @@ footer.footer-preview {
     margin-bottom: 0;
 }
 
-/* #logout-top-btn,
-#logout-bottom-btn {
-    border: 2px solid red;
-    color: red;
-} */
-
-/* #preview-btn {
-    border: 2px solid green;
-    background-color: green;
-    color: white;
-} */
-
 /* ################################################ */
-/* #preview-section {
-    text-align: center;
-} */
-
 .preview-card {
     margin-bottom: 10px;
 }
@@ -125,12 +88,6 @@ footer.footer-preview {
 #week-range-container {
     margin-bottom: 20px;
 }
-
-/* #back-to-form-btn {
-    border: 2px solid rgb(74, 105, 204);
-    background-color: rgb(74, 105, 204);
-    color: white;
-} */
 
 #confirm-send-btn {
     border: 2px solid green;

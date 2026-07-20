@@ -11,16 +11,6 @@ header {
     margin-bottom: 20px;
 }
 
-a {
-    display: inline-block;
-}
-
-a:hover,
-a:active {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-}
-
 label {
     display: block;
     margin: 15px auto 0;
@@ -30,20 +20,6 @@ label {
 input {
     margin: 15px auto;
     padding: 5px;
-}
-
-/* button {
-    margin: 15px auto;
-    border-radius: 8px;
-    padding: 8px;
-    background-color: white;
-    font-weight: bold;
-    cursor: pointer;
-} */
-
-button:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
 }
 
 div.edit {

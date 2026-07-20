@@ -35,22 +35,38 @@ article.btn-container {
     margin: 12px;
 }
 
-#honour-btn:hover,
 #honour-btn:active {
     background-color: rgb(96, 123, 188);
     color: white;
 }
 
-#schedule-btn:hover,
 #schedule-btn:active {
     background-color: rgb(194, 80, 80);
     color: white;
 }
 
-#notifications-btn:hover,
 #notifications-btn:active {
     background-color: #44765d;
     color: white;
+}
+
+@media (hover: hover) {
+
+    #honour-btn:hover {
+        background-color: rgb(96, 123, 188);
+        color: white;
+    }
+
+    #schedule-btn:hover {
+        background-color: rgb(194, 80, 80);
+        color: white;
+    }
+
+    #notifications-btn:hover {
+        background-color: #44765d;
+        color: white;
+    }
+
 }
 
 #notices-section {

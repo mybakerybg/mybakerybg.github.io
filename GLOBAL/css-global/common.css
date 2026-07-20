@@ -94,7 +94,8 @@ h2.sec-head-title {
     margin-bottom: 20px;
 }
 
-.page-nav a {
+.page-nav a:link,
+.page-nav a:visited {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -104,9 +105,11 @@ h2.sec-head-title {
     font-size: 16px;
 }
 
-.page-nav a:hover {
-    background-color: #ddd;
-    color: black;
+@media (hover: hover) {
+    .page-nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
 }
 
 .page-nav a.active {

@@ -41,13 +41,15 @@ function clearTextarea(ev) {
 function showPreviewSection() {
     noticesSection.style.display = 'none';
     previewSection.style.display = 'block';
-    window.location.href = '#preview-section';
+    // window.location.href = '#preview-section';
+    window.location.href = '#page-start';
 }
 
 function hidePreviewSection() {
     noticesSection.style.display = 'block';
     previewSection.style.display = 'none';
-    window.location.href = '#notices-section';
+    // window.location.href = '#notices-section';
+    window.location.href = '#page-start';
 }
 
 function renderPreview() {

@@ -11,10 +11,17 @@
   margin-bottom: 2px;
 }
 
-#home-page a:hover,
 #home-page a:active {
   text-decoration: underline;
   text-decoration-thickness: 2px;
+}
+
+@media (hover: hover) {
+  #home-page a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
 }
 
 .btn-container {
