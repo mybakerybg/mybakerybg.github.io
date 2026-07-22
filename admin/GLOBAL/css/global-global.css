@@ -6,7 +6,7 @@ body {
 
 h1.admin-heading {
   font-size: 23px;
-  padding-top: 20px;
+  margin-top: 32px;
   margin-bottom: 0;
   text-align: center;
 }
@@ -46,11 +46,6 @@ a.edit:visited {
 
 .link-btn:link,
 .link-btn:visited {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  padding: 8px;
   border-color: blue;
   color: blue;
 }
@@ -101,18 +96,11 @@ button,
   margin-top: 20px;
 }
 
-
-.btns-group.-top,
-.btns-group.-bottom {
-  /* border: 2px solid rgb(74, 105, 204); */
+footer.-template {
   display: flex;
   justify-content: center;
   gap: 32px;
   padding: 15px;
-}
-
-header.top-btns-group {
-  text-align: center;
 }
 
 hr.schedule {
@@ -167,16 +155,32 @@ button.edit {
   margin: 40px 0;
 }
 
-footer.footer-editform,
-footer.footer-preview {
+/* footer.footer-editform {
   border-top: 2px solid green;
+  display: flex;
+  flex-direction: column;
   padding: 16px;
+  margin-top: 32px;
+  margin-bottom: 50px;
+} */
+
+div.external-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-editform {
+  margin-top: 32px;
+}
+
+
+.footer-preview {
   display: flex;
   justify-content: center;
   gap: 32px;
-  margin-top: 32px !important;
-  margin-bottom: 50px;
+  padding-top: 16px;
 }
+
 
 footer.page-footer {
   border: none;
@@ -189,15 +193,36 @@ footer.page-footer > a {
   margin: 0;
 }
 
+div.menu-logout-btns-group {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 16px;
+}
+
+div.logout {
+  margin-top: 32px;
+}
+
 @media (max-width: 700px) {
 
+  .menu-logout-btns-group {
+    margin-top: 0 !important;
+  }
+
   div.btns-group.-top,
-  div.btns-group.-bottom,
+  .footer-template,
   .footer-editform,
   .footer-preview {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px !important;
+    margin-bottom: 50px;
   }
+
+  div.logout {
+    margin-bottom: 50px;
+  }
+
 }

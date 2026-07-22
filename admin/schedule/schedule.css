@@ -3,10 +3,6 @@ body {
     font-family: Helvetica, Arial, Verdana, sans-serif;
 }
 
-footer.footer-editform {
-    border-top: none;
-}
-
 section {
     padding: 0 16px 0;
 
@@ -54,10 +50,14 @@ textarea {
     margin: 0;
 }
 
+footer.footer-editform {
+    border-top: none;
+    margin-top: 40px;
+}
+
 footer.footer-editform,
 footer.footer-preview {
-    margin-top: 20px !important;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 /* ################################################ */
@@ -108,4 +108,22 @@ footer.footer-preview {
     width: 80%;
     height: 400px;
     margin: auto;
+}
+
+.footer-template {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 32px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    h1.admin-heading {
+        margin-top: 0;
+    }
+
+    div.btns-group.-top {
+        margin-bottom: 32px;
+    }
 }
