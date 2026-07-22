@@ -36,7 +36,7 @@ const firstDateInput = document.getElementById('first-date-input');
 const weekRangeContainer = document.getElementById('week-range-container');
 const previewContainer = document.getElementById('preview-container');
 
-const topBtnsGroup = document.querySelector('.top-btns-group');
+const topBtnsGroup = document.querySelector('.btns-group.-top');
 const articlesSection = document.getElementById('articles-section');
 const templateSection = document.querySelector('.template-section');
 const previewSection = document.getElementById('preview-section');
